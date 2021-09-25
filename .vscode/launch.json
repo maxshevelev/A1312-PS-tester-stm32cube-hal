@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/Users/maxik/Documents/PlatformIO/Projects/A1312-tester-stm32cube-hal/.pio/build/genericSTM32F411CE/firmware.elf",
+            "projectEnvName": "genericSTM32F411CE",
+            "toolchainBinDir": "/Users/maxik/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/maxik/.platformio/platforms/ststm32/misc/svd/STM32F411xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/Users/maxik/Documents/PlatformIO/Projects/A1312-tester-stm32cube-hal/.pio/build/genericSTM32F411CE/firmware.elf",
+            "projectEnvName": "genericSTM32F411CE",
+            "toolchainBinDir": "/Users/maxik/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/maxik/.platformio/platforms/ststm32/misc/svd/STM32F411xx.svd"
+        }
+    ]
+}
